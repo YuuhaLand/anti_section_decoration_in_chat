@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "チャットでセクション装飾消す",
+    "description": "チャットでのセクション装飾を消します\n全てのサーバーで動くわけではありません\nby YukaYama0311",
+    "version": [ 1, 0, 0 ],
+    "uuid": "8e2e9788-3de6-4193-ab5a-24a96d938ae4",
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "",
+      "version": [ 1, 0, 0 ],
+      "uuid": "ad282795-8be1-4afb-b645-2bcd266819cc"
+    }
+  ]
+}

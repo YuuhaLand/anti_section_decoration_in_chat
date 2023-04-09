@@ -1,0 +1,26 @@
+{
+  "namespace": "hud",
+
+  "chat_label": {
+    "text": "#text",
+    "bindings": [
+      {
+        "binding_name": "#chat_text",
+        "binding_name_override": "#text",
+        "binding_type": "collection",
+        "binding_collection_name": "chat_text_grid",
+        "binding_condition": "once"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "('§i' + #text)",
+        "target_property_name": "#text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#text - '§0' - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f' - '§g' - '§l' - '§o' - '§k' - '§m' - '§n')",
+        "target_property_name": "#text"
+      }
+    ]
+  }
+}
